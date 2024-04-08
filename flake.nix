@@ -18,6 +18,24 @@
           pkgs = import nixpkgs {
             inherit system overlays;
           };
+          test-f77-progs = pkgs.stdenv.mkDerivation {
+            name = "build-test-f77-prog";
+            src = ./.;
+            buildPhase = ''
+              cd src/
+
+              gfortran -O3 -fno-omit-frame-pointer -g -std=legacy -Wall basic_stack.FOR -o basic_stack
+            '';
+            installPhase = ''
+              mkdir -p $out/bin
+
+              cp basic_stack $out/bin
+            '';
+
+            buildInputs = [
+              pkgs.gfortran11
+            ];
+          };
           test-cpp-progs = pkgs.stdenv.mkDerivation {
             name = "build-test-cpp-prog";
             src = ./.;
@@ -53,6 +71,7 @@
               cp main_cpp_clang_O3 $out/bin
 
               cp main_cpp_clang_no_omit_fp_O3 $out/bin
+
             '';
             buildInputs = [
               pkgs.gcc
