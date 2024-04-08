@@ -22,21 +22,21 @@
             name = "build-test-cpp-prog";
             src = ./.;
             buildPhase = ''
-              		    cd src/
+              cd src/
 
-                            	    gcc -O0 main.cpp -o main_cpp_gcc_O0
-                            	    gcc -O1 main.cpp -o main_cpp_gcc_O1
-                            	    gcc -O2 main.cpp -o main_cpp_gcc_O2
-                            	    gcc -O3 main.cpp -o main_cpp_gcc_O3
-                            	    # In O2 and O3, GCC might swap function calls with jumps.
-                                  gcc per-function-optimizations.cpp -o per-function-optimizations
+              gcc -O0 main.cpp -o main_cpp_gcc_O0
+              gcc -O1 main.cpp -o main_cpp_gcc_O1
+              gcc -O2 main.cpp -o main_cpp_gcc_O2
+              gcc -O3 main.cpp -o main_cpp_gcc_O3
+              # In O2 and O3, GCC might swap function calls with jumps.
+              gcc per-function-optimizations.cpp -o per-function-optimizations
 
-                            	    clang -O0 main.cpp -o main_cpp_clang_O0
-                            	    clang -O1 main.cpp -o main_cpp_clang_O1
-                            	    clang -O2 main.cpp -o main_cpp_clang_O2
-                            	    clang -O3 main.cpp -o main_cpp_clang_O3
+              clang -O0 main.cpp -o main_cpp_clang_O0
+              clang -O1 main.cpp -o main_cpp_clang_O1
+              clang -O2 main.cpp -o main_cpp_clang_O2
+              clang -O3 main.cpp -o main_cpp_clang_O3
 
-                            	    clang -O3 -fno-omit-frame-pointer main.cpp -o main_cpp_clang_no_omit_fp_O3
+              clang -O3 -fno-omit-frame-pointer main.cpp -o main_cpp_clang_no_omit_fp_O3
             '';
             installPhase = ''
               mkdir -p $out/bin
@@ -64,8 +64,8 @@
             name = "build-test-static-glibc-cpp-prog";
             src = ./.;
             buildPhase = ''
-              	      cd src/
-                            clang -O3 -static main.cpp -o main_cpp_clang_static_glibc_O3
+              cd src/
+              clang -O3 -static main.cpp -o main_cpp_clang_static_glibc_O3
             '';
             installPhase = ''
               mkdir -p $out/bin
@@ -81,8 +81,8 @@
             name = "build-test-static-musl-cpp-prog";
             src = ./.;
             buildPhase = ''
-              	      cd src/
-                            clang -O3 -static --target=x86_64-unknown-linux-musl main.cpp -o main_cpp_clang_static_musl_O3
+              cd src/
+              clang -O3 -static --target=x86_64-unknown-linux-musl main.cpp -o main_cpp_clang_static_musl_O3
             '';
             installPhase = ''
               mkdir -p $out/bin
