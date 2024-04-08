@@ -28,8 +28,9 @@
               gcc -O1 main.cpp -o main_cpp_gcc_O1
               gcc -O2 main.cpp -o main_cpp_gcc_O2
               gcc -O3 main.cpp -o main_cpp_gcc_O3
-              # In O2 and O3, GCC might swap function calls with jumps.
-              gcc per-function-optimizations.cpp -o per-function-optimizations
+              # In O2 and O3, GCC might swap function calls with jumps due to
+              # sibling call optimization.
+              gcc -fno-optimize-sibling-calls per-function-optimizations.cpp -o per-function-optimizations
 
               clang -O0 main.cpp -o main_cpp_clang_O0
               clang -O1 main.cpp -o main_cpp_clang_O1
