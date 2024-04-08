@@ -1,0 +1,149 @@
+[2m2024-04-08T21:26:47.030737Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m unwind info not found for executable
+[2m2024-04-08T21:26:47.035016Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/ka9v02abah4k854i19j8w8pb7c7s2w49-build-test-f77-prog/bin/basic_f77_stack_O1[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.039530Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/ka9v02abah4k854i19j8w8pb7c7s2w49-build-test-f77-prog/bin/basic_f77_stack_O1[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m4.37ms [3mtime.idle[0m[2m=[0m629µs
+[2m2024-04-08T21:26:47.041852Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.042641Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m753µs [3mtime.idle[0m[2m=[0m68.0µs
+[2m2024-04-08T21:26:47.042927Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.043316Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m359µs [3mtime.idle[0m[2m=[0m36.0µs
+[2m2024-04-08T21:26:47.043772Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ======== Unwind rows for executable /nix/store/ka9v02abah4k854i19j8w8pb7c7s2w49-build-test-f77-prog/bin/basic_f77_stack_O1: 23 with id 0
+[2m2024-04-08T21:26:47.044063Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m -- unwind information covers PCs: [401020-4011ee]
+[2m2024-04-08T21:26:47.044273Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.044582Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- space used so far in live shard 0 0
+[2m2024-04-08T21:26:47.044866Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- live shard free space: 250000, rest_chunk size: 23
+[2m2024-04-08T21:26:47.045151Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk covers PCs [401020:4011ee]
+[2m2024-04-08T21:26:47.045361Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk is in shard: 0 in range [0:23]
+[2m2024-04-08T21:26:47.045561Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m done chunkin'
+[2m2024-04-08T21:26:47.045878Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.57ms [3mtime.idle[0m[2m=[0m40.0µs
+[2m2024-04-08T21:26:47.046700Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m unwind info not found for executable
+[2m2024-04-08T21:26:47.046917Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/ddwyrxif62r8n6xclvskjyy6szdhvj60-glibc-2.39-5/lib/libc.so.6[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.065019Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/ddwyrxif62r8n6xclvskjyy6szdhvj60-glibc-2.39-5/lib/libc.so.6[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m18.1ms [3mtime.idle[0m[2m=[0m21.0µs
+[2m2024-04-08T21:26:47.065415Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.067782Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m2.36ms [3mtime.idle[0m[2m=[0m14.0µs
+[2m2024-04-08T21:26:47.068065Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.070431Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m2.36ms [3mtime.idle[0m[2m=[0m11.0µs
+[2m2024-04-08T21:26:47.070878Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ======== Unwind rows for executable /nix/store/ddwyrxif62r8n6xclvskjyy6szdhvj60-glibc-2.39-5/lib/libc.so.6: 29557 with id 1
+[2m2024-04-08T21:26:47.071256Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m -- unwind information covers PCs: [28000-183f6d]
+[2m2024-04-08T21:26:47.071590Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.071826Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- space used so far in live shard 0 23
+[2m2024-04-08T21:26:47.071996Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- live shard free space: 249977, rest_chunk size: 29557
+[2m2024-04-08T21:26:47.073637Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk covers PCs [28000:183f6d]
+[2m2024-04-08T21:26:47.073871Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk is in shard: 0 in range [23:29580]
+[2m2024-04-08T21:26:47.074006Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m done chunkin'
+[2m2024-04-08T21:26:47.074130Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m2.54ms [3mtime.idle[0m[2m=[0m10.0µs
+[2m2024-04-08T21:26:47.074484Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m unwind info not found for executable
+[2m2024-04-08T21:26:47.074650Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/g64vfny6pd3gvbyik346l6azw5zls82y-gfortran-11.4.0-lib/lib/libquadmath.so.0.0.0[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.076569Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/g64vfny6pd3gvbyik346l6azw5zls82y-gfortran-11.4.0-lib/lib/libquadmath.so.0.0.0[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.91ms [3mtime.idle[0m[2m=[0m12.0µs
+[2m2024-04-08T21:26:47.076814Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.076998Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m182µs [3mtime.idle[0m[2m=[0m10.0µs
+[2m2024-04-08T21:26:47.077145Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.077434Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m267µs [3mtime.idle[0m[2m=[0m23.0µs
+[2m2024-04-08T21:26:47.077596Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ======== Unwind rows for executable /nix/store/g64vfny6pd3gvbyik346l6azw5zls82y-gfortran-11.4.0-lib/lib/libquadmath.so.0.0.0: 1857 with id 2
+[2m2024-04-08T21:26:47.077766Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m -- unwind information covers PCs: [3020-2ee3d]
+[2m2024-04-08T21:26:47.077980Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.078162Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- space used so far in live shard 0 29580
+[2m2024-04-08T21:26:47.078283Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- live shard free space: 220420, rest_chunk size: 1857
+[2m2024-04-08T21:26:47.078521Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk covers PCs [3020:2ee3d]
+[2m2024-04-08T21:26:47.078707Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk is in shard: 0 in range [29580:31437]
+[2m2024-04-08T21:26:47.079045Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m done chunkin'
+[2m2024-04-08T21:26:47.079184Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.20ms [3mtime.idle[0m[2m=[0m9.00µs
+[2m2024-04-08T21:26:47.079551Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m unwind info not found for executable
+[2m2024-04-08T21:26:47.079760Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/g64vfny6pd3gvbyik346l6azw5zls82y-gfortran-11.4.0-lib/lib/libgfortran.so.5.0.0[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.094531Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/g64vfny6pd3gvbyik346l6azw5zls82y-gfortran-11.4.0-lib/lib/libgfortran.so.5.0.0[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m14.8ms [3mtime.idle[0m[2m=[0m16.0µs
+[2m2024-04-08T21:26:47.094792Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.096000Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.20ms [3mtime.idle[0m[2m=[0m12.0µs
+[2m2024-04-08T21:26:47.096165Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.097317Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.15ms [3mtime.idle[0m[2m=[0m8.00µs
+[2m2024-04-08T21:26:47.097503Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ======== Unwind rows for executable /nix/store/g64vfny6pd3gvbyik346l6azw5zls82y-gfortran-11.4.0-lib/lib/libgfortran.so.5.0.0: 29421 with id 3
+[2m2024-04-08T21:26:47.097622Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m -- unwind information covers PCs: [1f020-279530]
+[2m2024-04-08T21:26:47.097740Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.097851Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- space used so far in live shard 0 31437
+[2m2024-04-08T21:26:47.098013Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- live shard free space: 218563, rest_chunk size: 29421
+[2m2024-04-08T21:26:47.099279Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk covers PCs [1f020:279530]
+[2m2024-04-08T21:26:47.099449Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk is in shard: 0 in range [31437:60858]
+[2m2024-04-08T21:26:47.099576Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m done chunkin'
+[2m2024-04-08T21:26:47.099718Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.97ms [3mtime.idle[0m[2m=[0m11.0µs
+[2m2024-04-08T21:26:47.100145Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m unwind info not found for executable
+[2m2024-04-08T21:26:47.100355Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/9820gagdrwfqwr0dncx4v3vznvahiqd1-gfortran-11.4.0-libgcc/lib/libgcc_s.so.1[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.101584Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/9820gagdrwfqwr0dncx4v3vznvahiqd1-gfortran-11.4.0-libgcc/lib/libgcc_s.so.1[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.22ms [3mtime.idle[0m[2m=[0m10.0µs
+[2m2024-04-08T21:26:47.101761Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.102058Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m298µs [3mtime.idle[0m[2m=[0m8.00µs
+[2m2024-04-08T21:26:47.102420Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.102660Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m240µs [3mtime.idle[0m[2m=[0m8.00µs
+[2m2024-04-08T21:26:47.102884Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ======== Unwind rows for executable /nix/store/9820gagdrwfqwr0dncx4v3vznvahiqd1-gfortran-11.4.0-libgcc/lib/libgcc_s.so.1: 1121 with id 4
+[2m2024-04-08T21:26:47.103032Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m -- unwind information covers PCs: [3020-14835]
+[2m2024-04-08T21:26:47.103213Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.103500Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- space used so far in live shard 0 60858
+[2m2024-04-08T21:26:47.103674Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- live shard free space: 189142, rest_chunk size: 1121
+[2m2024-04-08T21:26:47.103921Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk covers PCs [3020:14835]
+[2m2024-04-08T21:26:47.104060Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk is in shard: 0 in range [60858:61979]
+[2m2024-04-08T21:26:47.104206Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m done chunkin'
+[2m2024-04-08T21:26:47.104329Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.11ms [3mtime.idle[0m[2m=[0m7.00µs
+[2m2024-04-08T21:26:47.104557Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m unwind info not found for executable
+[2m2024-04-08T21:26:47.104739Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/ddwyrxif62r8n6xclvskjyy6szdhvj60-glibc-2.39-5/lib/libm.so.6[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.109132Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/ddwyrxif62r8n6xclvskjyy6szdhvj60-glibc-2.39-5/lib/libm.so.6[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m4.38ms [3mtime.idle[0m[2m=[0m15.0µs
+[2m2024-04-08T21:26:47.109397Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.109658Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m258µs [3mtime.idle[0m[2m=[0m11.0µs
+[2m2024-04-08T21:26:47.109854Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.110232Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m376µs [3mtime.idle[0m[2m=[0m13.0µs
+[2m2024-04-08T21:26:47.110539Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ======== Unwind rows for executable /nix/store/ddwyrxif62r8n6xclvskjyy6szdhvj60-glibc-2.39-5/lib/libm.so.6: 6249 with id 5
+[2m2024-04-08T21:26:47.110692Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m -- unwind information covers PCs: [10020-86aa8]
+[2m2024-04-08T21:26:47.110825Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.111002Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- space used so far in live shard 0 61979
+[2m2024-04-08T21:26:47.111237Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- live shard free space: 188021, rest_chunk size: 6249
+[2m2024-04-08T21:26:47.111827Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk covers PCs [10020:86aa8]
+[2m2024-04-08T21:26:47.112114Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk is in shard: 0 in range [61979:68228]
+[2m2024-04-08T21:26:47.112370Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m done chunkin'
+[2m2024-04-08T21:26:47.112516Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.69ms [3mtime.idle[0m[2m=[0m9.00µs
+[2m2024-04-08T21:26:47.112800Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m unwind info not found for executable
+[2m2024-04-08T21:26:47.112997Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/ddwyrxif62r8n6xclvskjyy6szdhvj60-glibc-2.39-5/lib/ld-linux-x86-64.so.2[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.114865Z[0m [34mDEBUG[0m [1mcalling in_memory_unwind_info[0m[1m{[0m/nix/store/ddwyrxif62r8n6xclvskjyy6szdhvj60-glibc-2.39-5/lib/ld-linux-x86-64.so.2[1m}[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.86ms [3mtime.idle[0m[2m=[0m12.0µs
+[2m2024-04-08T21:26:47.115102Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.115279Z[0m [34mDEBUG[0m [1msort unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m176µs [3mtime.idle[0m[2m=[0m10.0µs
+[2m2024-04-08T21:26:47.115421Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.115719Z[0m [34mDEBUG[0m [1moptimize unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m293µs [3mtime.idle[0m[2m=[0m8.00µs
+[2m2024-04-08T21:26:47.115893Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ======== Unwind rows for executable /nix/store/ddwyrxif62r8n6xclvskjyy6szdhvj60-glibc-2.39-5/lib/ld-linux-x86-64.so.2: 2583 with id 6
+[2m2024-04-08T21:26:47.116051Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m -- unwind information covers PCs: [1000-26d95]
+[2m2024-04-08T21:26:47.116204Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.116343Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- space used so far in live shard 0 68228
+[2m2024-04-08T21:26:47.116541Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- live shard free space: 181772, rest_chunk size: 2583
+[2m2024-04-08T21:26:47.116796Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk covers PCs [1000:26d95]
+[2m2024-04-08T21:26:47.117012Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m -- chunk is in shard: 0 in range [68228:70811]
+[2m2024-04-08T21:26:47.117211Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m done chunkin'
+[2m2024-04-08T21:26:47.117358Z[0m [34mDEBUG[0m [1mchunk unwind info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.15ms [3mtime.idle[0m[2m=[0m8.00µs
+[2m2024-04-08T21:26:47.117955Z[0m [34mDEBUG[0m [1mpersist_unwind_info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:47.122096Z[0m [34mDEBUG[0m [1mpersist_unwind_info[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m4.13ms [3mtime.idle[0m[2m=[0m25.0µs
+[2m2024-04-08T21:26:51.969103Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m collecting profiles on schedule
+[2m2024-04-08T21:26:51.969963Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m collecting profile
+[2m2024-04-08T21:26:51.972357Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ===== got 3 unique stacks
+[2m2024-04-08T21:26:51.973148Z[0m [32m INFO[0m [2mlightswitch::profiler[0m[2m:[0m unwinder stats: unwinder_stats_t { total: 490, success_dwarf: 489, error_truncated: 0, error_unsupported_expression: 0, error_unsupported_frame_pointer_action: 0, error_unsupported_cfa_register: 0, error_catchall: 0, error_should_never_happen: 0, error_pc_not_covered: 0, error_jit: 0 }
+[2m2024-04-08T21:26:51.973767Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:51.975116Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m clearing map stacks found 3 entries, failed to delete 0 entries
+[2m2024-04-08T21:26:51.975503Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m clearing map aggregated_stacks found 3 entries, failed to delete 0 entries
+[2m2024-04-08T21:26:51.975680Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.91ms [3mtime.idle[0m[2m=[0m32.0µs
+[2m2024-04-08T21:26:56.977619Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m collecting profiles on schedule
+[2m2024-04-08T21:26:56.978121Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m collecting profile
+[2m2024-04-08T21:26:56.979038Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ===== got 2 unique stacks
+[2m2024-04-08T21:26:56.979295Z[0m [32m INFO[0m [2mlightswitch::profiler[0m[2m:[0m unwinder stats: unwinder_stats_t { total: 505, success_dwarf: 505, error_truncated: 0, error_unsupported_expression: 0, error_unsupported_frame_pointer_action: 0, error_unsupported_cfa_register: 0, error_catchall: 0, error_should_never_happen: 0, error_pc_not_covered: 0, error_jit: 0 }
+[2m2024-04-08T21:26:56.979630Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:26:56.980450Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m clearing map stacks found 2 entries, failed to delete 0 entries
+[2m2024-04-08T21:26:56.980771Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m clearing map aggregated_stacks found 2 entries, failed to delete 0 entries
+[2m2024-04-08T21:26:56.981180Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.53ms [3mtime.idle[0m[2m=[0m27.0µs
+[2m2024-04-08T21:27:01.982571Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m collecting profiles on schedule
+[2m2024-04-08T21:27:01.983184Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m collecting profile
+[2m2024-04-08T21:27:01.984194Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ===== got 2 unique stacks
+[2m2024-04-08T21:27:01.984492Z[0m [32m INFO[0m [2mlightswitch::profiler[0m[2m:[0m unwinder stats: unwinder_stats_t { total: 505, success_dwarf: 505, error_truncated: 0, error_unsupported_expression: 0, error_unsupported_frame_pointer_action: 0, error_unsupported_cfa_register: 0, error_catchall: 0, error_should_never_happen: 0, error_pc_not_covered: 0, error_jit: 0 }
+[2m2024-04-08T21:27:01.984755Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:27:01.985535Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m clearing map stacks found 2 entries, failed to delete 0 entries
+[2m2024-04-08T21:27:01.985834Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m clearing map aggregated_stacks found 2 entries, failed to delete 0 entries
+[2m2024-04-08T21:27:01.986015Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.25ms [3mtime.idle[0m[2m=[0m25.0µs
+[2m2024-04-08T21:27:06.969095Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m done after running for 20.000101s
+[2m2024-04-08T21:27:06.970092Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m collecting profile
+[2m2024-04-08T21:27:06.971087Z[0m [34mDEBUG[0m [2mlightswitch::profiler[0m[2m:[0m ===== got 2 unique stacks
+[2m2024-04-08T21:27:06.971436Z[0m [32m INFO[0m [2mlightswitch::profiler[0m[2m:[0m unwinder stats: unwinder_stats_t { total: 503, success_dwarf: 503, error_truncated: 0, error_unsupported_expression: 0, error_unsupported_frame_pointer_action: 0, error_unsupported_cfa_register: 0, error_catchall: 0, error_should_never_happen: 0, error_pc_not_covered: 0, error_jit: 0 }
+[2m2024-04-08T21:27:06.971875Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:27:06.972708Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m clearing map stacks found 2 entries, failed to delete 0 entries
+[2m2024-04-08T21:27:06.973039Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m clearing map aggregated_stacks found 2 entries, failed to delete 0 entries
+[2m2024-04-08T21:27:06.973298Z[0m [34mDEBUG[0m [1mclear_maps[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m1.42ms [3mtime.idle[0m[2m=[0m22.0µs
+[2m2024-04-08T21:27:06.976872Z[0m [34mDEBUG[0m [1msymbolize_profiles[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m enter
+[2m2024-04-08T21:27:06.977182Z[0m [34mDEBUG[0m [1msymbolize_profiles[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m Collector::finish 4
+[2m2024-04-08T21:27:09.628826Z[0m [34mDEBUG[0m [1msymbolize_profiles[0m[2m:[0m [2mlightswitch::profiler[0m[2m:[0m close [3mtime.busy[0m[2m=[0m2.65s [3mtime.idle[0m[2m=[0m31.0µs

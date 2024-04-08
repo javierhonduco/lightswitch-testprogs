@@ -24,12 +24,18 @@
             buildPhase = ''
               cd src/
 
-              gfortran -O3 -fno-omit-frame-pointer -g -std=legacy -Wall basic_stack.FOR -o basic_stack
+              gfortran -O0 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O0
+              gfortran -O1 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O1
+              gfortran -O2 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O2
+              gfortran -O3 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O3
             '';
             installPhase = ''
               mkdir -p $out/bin
 
-              cp basic_stack $out/bin
+              cp basic_f77_stack_O0 $out/bin
+              cp basic_f77_stack_O1 $out/bin
+              cp basic_f77_stack_O2 $out/bin
+              cp basic_f77_stack_O3 $out/bin
             '';
 
             buildInputs = [
@@ -128,6 +134,7 @@
             default = test-cpp-progs;
             static-glibc = test-static-glibc-cpp-progs;
             static-musl = test-static-musl-cpp-progs;
+            fortran = test-f77-progs;
           };
         }
       );
