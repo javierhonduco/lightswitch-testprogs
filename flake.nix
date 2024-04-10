@@ -28,14 +28,16 @@
               gfortran -O1 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O1
               gfortran -O2 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O2
               gfortran -O3 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O3
+
+              gfortran -DNOINLINE -O0 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O0-noinline
+              gfortran -DNOINLINE -O1 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O1-noinline
+              gfortran -DNOINLINE -O2 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O2-noinline
+              gfortran -DNOINLINE -O3 -g -std=legacy -Wall basic_stack.FOR -o basic_f77_stack_O3-noinline
             '';
             installPhase = ''
               mkdir -p $out/bin
 
-              cp basic_f77_stack_O0 $out/bin
-              cp basic_f77_stack_O1 $out/bin
-              cp basic_f77_stack_O2 $out/bin
-              cp basic_f77_stack_O3 $out/bin
+              cp basic_f77_stack_O* $out/bin
             '';
 
             buildInputs = [

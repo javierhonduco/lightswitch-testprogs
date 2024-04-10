@@ -88,7 +88,8 @@ C
       !GCC$ ATTRIBUTES NOINLINE :: TOP1
 #endif
          INTEGER I, RES
-         DO I = 0, 10000000, 1
+         DO I = 0, 1000, 1
+           PRINT *, 'TOP1: ', I
            RES=I
          END DO
          TOP1 = 0
@@ -100,7 +101,8 @@ C
       !GCC$ ATTRIBUTES NOINLINE :: TOP2
 #endif
          INTEGER I, RES
-         DO I = 0, 10000000, 1
+         DO I = 0, 1000, 1
+           PRINT *, 'TOP2: ', I
            RES=I
          END DO
          TOP2 = 0
