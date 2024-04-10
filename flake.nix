@@ -19,6 +19,7 @@
             inherit system overlays;
           };
           test-f77-progs = pkgs.stdenv.mkDerivation {
+            dontStrip = true;
             name = "build-test-f77-prog";
             src = ./.;
             buildPhase = ''
