@@ -34,7 +34,7 @@
             '';
 
             buildInputs = [
-              pkgs.gfortran11
+              pkgs.gfortran13
             ];
           };
           test-cpp-progs = pkgs.stdenv.mkDerivation {
