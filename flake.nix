@@ -125,7 +125,7 @@
         with pkgs;
         {
           formatter = pkgs.nixpkgs-fmt;
-          packages = rec {
+          packages = {
             default = test-cpp-progs;
             static-glibc = test-static-glibc-cpp-progs;
             static-musl = test-static-musl-cpp-progs;
