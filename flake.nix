@@ -30,7 +30,7 @@
             installPhase = ''
               mkdir -p $out/bin
 
-              cp basic_stack_f77-O* $out/bin
+              mv basic_stack_f77-O* $out/bin
             '';
 
             buildInputs = [
@@ -125,7 +125,7 @@
         with pkgs;
         {
           formatter = pkgs.nixpkgs-fmt;
-          packages = {
+          packages = rec {
             default = test-cpp-progs;
             static-glibc = test-static-glibc-cpp-progs;
             static-musl = test-static-musl-cpp-progs;
