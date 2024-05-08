@@ -18,6 +18,25 @@
           pkgs = import nixpkgs {
             inherit system overlays;
           };
+          test-f77-progs = pkgs.stdenv.mkDerivation {
+            dontStrip = true;
+            name = "build-test-f77-prog";
+            src = ./.;
+            buildPhase = ''
+              cd src/
+
+              make
+            '';
+            installPhase = ''
+              mkdir -p $out/bin
+
+              mv basic_stack_f77-O* $out/bin
+            '';
+
+            buildInputs = [
+              pkgs.gfortran13
+            ];
+          };
           test-cpp-progs = pkgs.stdenv.mkDerivation {
             name = "build-test-cpp-prog";
             src = ./.;
@@ -54,6 +73,7 @@
               cp main_cpp_clang_O3 $out/bin
 
               cp main_cpp_clang_no_omit_fp_O3 $out/bin
+
             '';
             buildInputs = [
               pkgs.gcc
@@ -110,6 +130,7 @@
             default = test-cpp-progs;
             static-glibc = test-static-glibc-cpp-progs;
             static-musl = test-static-musl-cpp-progs;
+            fortran = test-f77-progs;
           };
         }
       );
