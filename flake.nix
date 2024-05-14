@@ -115,6 +115,40 @@
             ];
           };
 
+          test-go = pkgs.stdenv.mkDerivation {
+            name = "build-test-go-prog";
+            src = ./.;
+            buildPhase = ''
+              export HOME=$TMPDIR
+              cd src/go
+              go build -o main-go main.go
+            '';
+            installPhase = ''
+              mkdir -p $out/bin
+              cp main-go $out/bin
+            '';
+            buildInputs = [
+              pkgs.go
+            ];
+          };
+
+          test-cgo = pkgs.stdenv.mkDerivation {
+            name = "build-test-cgo-prog";
+            src = ./.;
+            buildPhase = ''
+              export HOME=$TMPDIR
+              cd src/cgo
+              go build -o main-cgo main_cgo.go
+            '';
+            installPhase = ''
+              mkdir -p $out/bin
+              cp main-cgo $out/bin
+            '';
+            buildInputs = [
+              pkgs.go
+            ];
+          };
+
           # Trying to get a derivation that aggregates all the other derivations.
           all-progs = pkgs.stdenv.mkDerivation {
             name = "all-progs";
@@ -131,6 +165,8 @@
             static-glibc = test-static-glibc-cpp-progs;
             static-musl = test-static-musl-cpp-progs;
             fortran = test-f77-progs;
+            go = test-go;
+            cgo = test-cgo;
           };
         }
       );
