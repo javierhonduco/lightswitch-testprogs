@@ -11,6 +11,7 @@
     };
   };
   outputs = { self, nixpkgs, flake-utils, rust-overlay }:
+
     flake-utils.lib.eachSystem [ "x86_64-linux" "aarch64-linux" ]
       (system:
         let
@@ -57,6 +58,8 @@
               clang -O3 main.cpp -o main_cpp_clang_O3
 
               clang -O3 -fno-omit-frame-pointer main.cpp -o main_cpp_clang_no_omit_fp_O3
+
+              ${if system == "aarch64-linux" then "clang -O3 -mbranch-protection=pac-ret main.cpp -o main_cpp_clang_pac" else ""}
             '';
             installPhase = ''
               mkdir -p $out/bin
@@ -73,7 +76,7 @@
               cp main_cpp_clang_O3 $out/bin
 
               cp main_cpp_clang_no_omit_fp_O3 $out/bin
-
+              ${if system == "aarch64-linux" then "cp main_cpp_clang_pac $out/bin" else ""}
             '';
             buildInputs = [
               pkgs.gcc
